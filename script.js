@@ -75,6 +75,10 @@ function palindrome(str) {
 
 console.log(palindrome("A man, a plan, a canal. Panama"));
 
+
+
+
+//Age Greetings
 let age = prompt('age?', 18);
 
 let message = (age < 3) ? 'Hi, baby!' :
@@ -102,6 +106,13 @@ alert( message );
 //Grasshopper - Summation
 var summation = function (num) {
 
+  let add = 0;// variable to store values
 
-
+    for (let i = 1; i <= num; i++ ){ //for loop to iterate through the values
+      add += i; // adds values
+    }
+    return add;
 }
+
+console.log(summation(1), 1);
+console.log(summation(8), 36);
